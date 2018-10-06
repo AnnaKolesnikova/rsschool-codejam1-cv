@@ -1,14 +1,14 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-  border:0;
-  font:inherit;
-  font-size:100%;
-  margin:0;
-  padding:0;
-  vertical-align:baseline;
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
   }
 
   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display:block;
+    display:block;
   }
 
   html,
@@ -42,15 +42,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   }
 
   .name h1 {
+    margin-bottom: -6px;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-    margin-bottom: -6px;
   }
 
   .name h2 {
-    font-size: 1.5em;
     margin-left: 2px;
+    font-size: 1.5em;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
   }
 
@@ -59,15 +59,14 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   }
 
   .headshot {
+    margin-right: 30px;
     width: 12.5%;
     float: left;
-    margin-right: 30px;
   }
 
   .headshot img {
     width: 100%;
     height: auto;
-    -webkit-border-radius: 50px;
     border-radius: 50px;
   }
 
@@ -80,9 +79,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   }
 
    .contact-details ul {
+    margin-top: 2px;
     list-style-type: none;
     font-size: 0.7em;
-    margin-top: 2px;
   }
 
    .contact-details ul li {
@@ -100,8 +99,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   }
 
   section {
-    border-top: 1px solid #dedede;
     padding: 20px 0 0;
+    border-top: 1px solid #dedede;
   }
 
   section:first-child {
@@ -130,21 +129,21 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   }
 
   .section-content h2 {
+    margin-bottom: -2px;
     font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     font-size: 1.5em;
-    margin-bottom: -2px;
   }
 
   .sub-details {
+    margin-bottom: 3px;
     font-size: 0.8em;
     font-style: italic;
-    margin-bottom: 3px;
   }
 
   .skills {
+    margin-bottom: 20px;
     list-style: none;
     column-count:3;
-    margin-bottom: 20px;
     font-size: 1em;
     color: #444;
   }
